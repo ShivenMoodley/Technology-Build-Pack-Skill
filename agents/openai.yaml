@@ -1,0 +1,14 @@
+interface:
+  display_name: Technology Build Pack
+  short_description: Create complete development-ready technology documents
+  default_prompt: Use $generate-technology-build-pack to turn our completed product
+    discussion into a professional Word documentation pack for the development team.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
